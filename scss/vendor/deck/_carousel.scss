@@ -1,0 +1,17 @@
+// Carosel
+
+.carousel-caption{
+	bottom: 5em;
+
+	h5{
+		font-size: $h2-font-size;
+		text-transform: uppercase;
+		font-family: $font-family-monospace;
+	}
+
+	p{
+		font-family: $font-family-sans-serif;
+		font-weight: 400;
+		font-size: 1.2rem;
+	}
+}

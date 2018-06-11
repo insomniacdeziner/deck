@@ -1,0 +1,123 @@
+// layout-one
+.layout-one{
+	background-color: $gray-100;
+}
+
+.share-bar{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+
+	li{
+		float: left;
+		text-decoration: none;
+		display: inline-block;
+		padding: .5em .5em .5em 0;
+	}
+}
+
+.news{
+	color: $white;
+	.badge{
+		position: relative;
+		left: -15px;
+	}
+}
+
+.img-car{
+	background:
+	   linear-gradient(
+       rgba(0, 0, 0, 0.45),
+       rgba(0, 0, 0, 0.45)
+	    ),
+	url('../img/car-steering-wheel.jpg');
+	background-size: cover;
+}
+
+.img-gopro{
+	background:
+	   linear-gradient(
+       rgba(0, 0, 0, 0.45),
+       rgba(0, 0, 0, 0.45)
+	    ),
+	url('../img/gopro.jpg');
+	background-size: cover;
+	min-height: 274px;
+}
+
+.img-living{
+	background:
+	   linear-gradient(
+       rgba(0, 0, 0, 0.45),
+       rgba(0, 0, 0, 0.45)
+	    ),
+	url('../img/laptop-living-room.jpg');
+	background-size: cover;
+	min-height: 274px;
+}
+
+.img-watch{
+	background:
+	   linear-gradient(
+       rgba(0, 0, 0, 0.45),
+       rgba(0, 0, 0, 0.45)
+	    ),
+	url('../img/phone-watch.jpg');
+	background-size: cover;
+	min-height: 274px;
+}
+
+.img-wrist{
+	background:
+	   linear-gradient(
+       rgba(0, 0, 0, 0.45),
+       rgba(0, 0, 0, 0.45)
+	    ),
+	url('../img/wrist.jpg');
+	background-size: cover;
+	min-height: 274px;
+}
+
+
+
+.banner{
+	background-color: $pink;
+	color: $white;
+	padding: 1.5em 0;
+	h3{
+		text-transform: uppercase;
+		margin-bottom: 0.8em;
+	}
+
+
+	.btn-outline-secondary{
+		border-color: $white;
+		color: $white;
+		margin-top: 0.5em;
+	}
+
+}
+
+.featured{
+	background: $white;
+	font-size: $font-size-sm;
+
+	ul{
+		width: 100%;
+	}
+
+	li{
+		list-style-type: none;
+		padding: 1.5em .5em 1em;
+		text-indent:-1.2em;
+		border-bottom: 1px solid $gray-100;
+
+		span{
+			color: $gray-400;
+			padding-right: .5em;
+		}
+
+	}
+
+
+}

@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
 
-    <title>Hello, world!</title>
+    <title>Layout One</title>
   </head>
-  <body>
+  <body class="layout-one">
 	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Deck</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,10 +44,11 @@
     </ul>
    </div>
 </nav>
+
 <div class="container-fluid">
-<div class="row">
-	<main class="col-lg-9" role="main" style="background: yellow;">
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<div class="row">
+		<div class="col-md-9">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
@@ -84,32 +85,88 @@
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
-
 		<div class="row">
-			<div class="col col-lg-2">
-
+			<div class="col-md-3">
+				<div class="featured">
+					<ul>
+						<li><h4>Featured Stories</h4></li>
+						<li><p><span>1</span>Compare Prices: Find the Best Computer Accessory</p></li>
+						<li><p><span>2</span>Why you should use external IT support</p></li>
+						<li><p><span>3</span>Why you should use in-house IT support</p></li>
+						<li><p><span>4</span>Choosing the best Audio Player Software</p></li>
+						<li><p><span>5</span>Addiction When Gambling becomes a problem</p></li>
+					</ul>
+				</div>
 			</div>
-			<div class="col col-lg-10">
-				<div class="row">
-					<div class="col col-lg-12">
+			<div class="col">
+				<div class="row no-gutters">
+				<div class="col img-living news">
+				<div class="badge">Entertainment</div>
+		   			<h3>Unmatched Toner Cartride Quality: 20% Less Than OEM Price</h3>
+		   			<ul class="share-bar">
+			   		<li><p>275 <i class="fas fa-share"></i></p></li>
+			   		<li><p>275 <i class="far fa-dot-circle"></i></p></li>
+			   		<li><p><i class="fas fa-comments"></i></p></li>
+		   		</ul>
+				</div>
 
-					</div>
-					<div class="col col-lg-6">
 
-					</div>
-					<div class="col col-lg-6">
-
-					</div>
-
+			<div class="row no-gutters">
+				<div class="col img-wrist news">
+					<div class="badge">Finance</div>
+			   		<h3>Unmatched Toner Cartride Quality: 20% Less Than OEM Price</h3>
+			   		<ul class="share-bar">
+				   		<li><p>275 <i class="fas fa-share"></i></p></li>
+				   		<li><p>275 <i class="far fa-dot-circle"></i></p></li>
+				   		<li><p><i class="fas fa-comments"></i></p></li>
+			   		</ul>
+				</div>
+				<div class="col img-watch news">
+					<div class="badge">Finance</div>
+			   		<h3>Unmatched Toner Cartride Quality: 20% Less Than OEM Price</h3>
+			   		<ul class="share-bar">
+				   		<li><p>275 <i class="fas fa-share"></i></p></li>
+				   		<li><p>275 <i class="far fa-dot-circle"></i></p></li>
+				   		<li><p><i class="fas fa-comments"></i></p></li>
+			   		</ul>
 				</div>
 			</div>
 		</div>
+	</div>
+	</div>
+	</div>
+		<!-- SIDE BAR -->
 
-	</main>
-   <sidebar class="col-lg-3" style="background: red;">
-   </sidebar>
+		<div class="col">
+   			<div class="col-md-12 img-car news">
+	   			<div class="badge">Finance</div>
+	   			<h3>Unmatched Toner Cartride Quality: 20% Less Than OEM Price</h3>
+		   		<ul class="share-bar">
+			   		<li><p>275 <i class="fas fa-share"></i></p></li>
+			   		<li><p>275 <i class="far fa-dot-circle"></i></p></li>
+			   		<li><p><i class="fas fa-comments"></i></p></li>
+		   		</ul>
+   			</div>
+	   		<div class="col-md-12 banner">
+		   		<h3>This tie brand is bucking the retail apocalypse with a massive store exapansion</h3>
+		   		<p>The universe is constantly changing, moving. Some would say it's a "living" thing because you never know what you are going to see on any given night.</p>
+		   		<button class="btn btn-outline-secondary">READ MORE</button>
+	   		</div>
+
+   		<div class="col-md-12 img-gopro news">
+	   		<div class="badge">technology</div>
+	   		<h3>Where to find Myspace Layouts</h3>
+	   		<ul class="share-bar">
+			   		<li><i class="fas fa-share"></i></li>
+			   		<li><i class="far fa-dot-circle"></i></li>
+			   		<li><i class="fas fa-comments"></i></li>
+		   		</ul>
+   		</div>
+
+		</div>
+	</div>
 </div>
-</div>
+
 
    	<footer class="footer">
 		 <div class="container">
@@ -142,15 +199,15 @@
 					<li>Entertainment</li>
 				</ul>
 	   		</div>
-	   	<div class="col col-sm-12 col-lg-4">
-	   	<div class="social-media float-lg-right">
-		   	<p>Follow Us:
-		   	<i class="fab fa-instagram"></i>
-		   	<i class="fab fa-pinterest-p"></i>
-		   	<i class="fab fa-twitter"></i>
-		   	<i class="fab fa-facebook-f"></i>
-		</p>
-	   	</div>
+	   	<div class="col col-4">
+		   	<div class="social-media float-lg-right">
+			   	<p>Follow Us:
+			   	<i class="fab fa-instagram"></i>
+			   	<i class="fab fa-pinterest-p"></i>
+			   	<i class="fab fa-twitter"></i>
+			   	<i class="fab fa-facebook-f"></i>
+			   </p>
+		   	</div>
 
 		<div class="input-group mb-3">
 		  <input type="text" class="form-control" placeholder="YOUR EMAIL" aria-label="Recipient's username" aria-describedby="basic-addon2">
